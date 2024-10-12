@@ -1,8 +1,8 @@
 from sqlalchemy import Column, Integer, String, Date,Float
-from config.db_config import Base
+from models.data import Base
 
 class TradeData(Base):
-    __tablename__ = "Trade_data"
+    __tablename__ = "trade_data"
     id = Column(Integer,primary_key=True,autoincrement=True)
     date= Column(Date,nullable=False)
     close_price = Column(Float,nullable=False)
