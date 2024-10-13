@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 import pandas as pd
-from data import engine
+from models.data import engine
 
 def fetch_datetime():
     date_time = pd.read_sql("SELECT datetime FROM trade_data" ,con=engine)

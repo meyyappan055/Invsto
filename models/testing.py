@@ -1,4 +1,5 @@
-from analysis import df
+from models.analysis import df
+import pandas as pd
 
 def testing_strategy(df,capital):
     shares = 0
@@ -17,4 +18,3 @@ def testing_strategy(df,capital):
     df['portfolio'] = df['portfolio'].astype(float).round(2)
     return df
     
-print(testing_strategy(df,1000)) #testing with a capital of 1000
