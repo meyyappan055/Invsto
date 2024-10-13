@@ -1,4 +1,3 @@
-from sqlalchemy.orm import Session
 import pandas as pd
 from models.data import engine
 

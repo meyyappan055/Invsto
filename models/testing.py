@@ -1,5 +1,4 @@
 from models.analysis import df
-import pandas as pd
 
 def testing_strategy(df,capital):
     shares = 0
