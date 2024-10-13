@@ -26,3 +26,10 @@ This project focuses on managing and analyzing stock data efficiently. It stores
 - **Programming Language:** Python
 - **Database:** MySQL with SQLAlchemy 
 - **Libraries:** SQLAlchemy, Pandas , Matplotlib
+
+## Screenshots
+- ![performance image](https://github.com/user-attachments/assets/96b9bc62-0eca-492f-8809-ac7432cbd8b3)
+- ![unit testing image](https://github.com/user-attachments/assets/e11f4352-a4be-4e15-9f30-61b5d0bd12d0)
+
+
+
